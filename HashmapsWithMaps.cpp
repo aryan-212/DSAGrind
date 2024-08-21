@@ -1,4 +1,5 @@
 // hashmaps are better because the keys don't have to be in order'
+// takes time as log(n) in all the cases
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
