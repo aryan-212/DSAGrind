@@ -1,3 +1,4 @@
+// hashmaps are better because the keys don't have to be in order'
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
