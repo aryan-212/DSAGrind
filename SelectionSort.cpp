@@ -37,7 +37,12 @@ int main() {
   for (int i = 0; i < n; i++)
     cin >> arr[i];
   bubble_sort(arr, n);
-  cout << "after sorting" << endl;
+  cout << "after bubble sorting" << endl;
+  for (int i = 0; i < n; i++) {
+    cout << arr[i] << " ";
+  }
+  cout << "\n";
+  cout << "After Selection sort\n";
   for (int i = 0; i < n; i++) {
     cout << arr[i] << " ";
   }
