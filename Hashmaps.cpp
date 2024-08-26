@@ -7,6 +7,7 @@ int hashquery(int query, int arr[], int size) {
     hsh[arr[i]] += 1;
   }
   return hsh[query];
+  sdfsdfskdlfjk
 }
 
 int main() {
