@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,6 +12,7 @@ int main() {
   for (int i = 0; i < n; i++) {
     cin >> arr[i];
   }
+
   // Largest Element
   int la = arr[0];
   for (int i = 1; i < n; i++) {
@@ -18,16 +20,17 @@ int main() {
       la = arr[i];
     }
   }
+
   // 2nd largest
   int la1 = INT_MIN;
-  for (int i = 1; i < n; i++) {
-    if (la1 < arr[i] && arr[i] < la) {
+  for (int i = 0; i < n; i++) {
+    if (arr[i] != la && la1 < arr[i]) {
       la1 = arr[i];
     }
   }
 
   cout << "The largest element is " << la << endl;
-  cout << "The largest element is " << la1 << endl;
+  cout << "The second largest element is " << la1 << endl;
 
   return 0;
 }
