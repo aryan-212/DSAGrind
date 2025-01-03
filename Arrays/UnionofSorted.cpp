@@ -1,9 +1,5 @@
-
-
 #include <bits/stdc++.h>
-
 using namespace std;
-
 vector<int> FindUnion(int arr1[], int arr2[], int n, int m) {
   int i = 0, j = 0;  // pointers
   vector<int> Union; // Uninon vector

@@ -68,6 +68,7 @@ int main() {
   for (auto &it : v) {
     it += 1; // Modifies the original elements in the vector
   }
-
+  // For sorting a array
+  sort(vec.begin(), vec.end());
   return 0;
 }
