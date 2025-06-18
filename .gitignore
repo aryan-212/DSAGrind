@@ -1,1 +1,11 @@
+
+# Ignore everything
+*
+
+# But not these directories (to reach files inside)
+!*/
+
+# Include only .cpp and .out files
+!*.cpp
 *.out
+
